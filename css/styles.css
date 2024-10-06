@@ -20,6 +20,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
 }
 
 img {
@@ -32,4 +34,47 @@ img {
     max-width: 1100px;
     margin: 0 auto;
     width: 80%;
+}
+
+/* Header */
+.header {
+    background-color: #add8e6;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    width: 25%;
+
+    /* debug */
+    border: 1px dashed black;
+    background-color: #daa520;
+}
+
+.links {
+    width: 50%;
+    text-align: center;
+
+      /* debug */
+    border: 1px dashed black;
+    background-color: #daa520;
+}
+
+.login {
+    width: 25%;
+    text-align: end;
+
+      /* debug */
+    border: 1px dashed black;
+    background-color: #daa520;
+}
+
+/* Utilities */
+.pd-5 {
+    padding: 5px;
 }
