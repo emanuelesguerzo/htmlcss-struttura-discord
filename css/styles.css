@@ -90,6 +90,33 @@ img {
     height: 180px;
 }
 
+/* Sections*/
+section-one {
+    /* debug */
+    background-color: #ffffff;
+    min-height: 200px;
+}
+
+.row {
+    display: flex;
+}
+
+.col-60 {
+    width: 60%;
+    /* debug */
+    min-height: 200px;
+    background-color: #1e90ff;
+    border: 1px dashed black;
+}
+
+.col-40 {
+    width: 40%;
+    /* debug */
+    min-height: 200px;
+    background-color: #ffc0cb;
+    border: 1px dashed black;
+}
+
 /* Utilities */
 .pd-5 {
     padding: 5px;
