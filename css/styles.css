@@ -50,7 +50,6 @@ img {
 
 .logo {
     width: 25%;
-
     /* debug */
     border: 1px dashed black;
     background-color: #daa520;
@@ -59,7 +58,6 @@ img {
 .links {
     width: 50%;
     text-align: center;
-
       /* debug */
     border: 1px dashed black;
     background-color: #daa520;
@@ -68,7 +66,6 @@ img {
 .login {
     width: 25%;
     text-align: end;
-
       /* debug */
     border: 1px dashed black;
     background-color: #daa520;
@@ -76,24 +73,25 @@ img {
 
 /* Hero Banner */
 .hero-banner {
-    /* debug */
-    background-color: #00008b;
     display: flex;
     justify-content: center;
+    /* debug */
+    background-color: #00008b;
 }
 
 .hero-img {
+    width: 60%; 
     /* debug */
     background-color: #ee82ee;
     border: 1px dashed black;
-    width: 60%;
-    height: 180px;
+    min-height: 180px;
 }
 
 /* Sections*/
 .row {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .col-60 {
@@ -129,20 +127,20 @@ img {
 /* Footer Top */
 .col-footer-big {
     width: calc(100% / 5);
+    flex: 2;
     /* debug */
     min-height: 250px;
     background-color: #f08080;
     border: 1px dashed black;
-    flex: 2;
 }
 
 .col-footer {
     width: calc(100% / 5);
+    flex: 1; 
     /* debug */
     height: 250px;
     background-color: #20b2aa; 
     border: 1px dashed white;
-    flex: 1;
 }
 
 /* Footer Bottom */
@@ -150,14 +148,14 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #7fffd4;
-
     /* debug */
     min-height: 40px;
+    background-color: #7fffd4;
 }
 
 .footer-btn,
 .footer-logo {
+    /* debug */
     background-color: #ffb6c1;
     border: 1px dashed black;
     padding: 3px;
