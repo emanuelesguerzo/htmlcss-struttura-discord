@@ -1,0 +1,35 @@
+/*
+#add8e6
+#daa520
+#00008b
+#ee82ee
+#ffffff
+#1e90ff
+#ffc0cb
+#d3d3d3
+#228b22
+#23272a
+#f08080
+#20b2aa
+#7fffd4
+#ffb6c1
+*/
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* COMMON */
+/* Layout */
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    width: 80%;
+}
