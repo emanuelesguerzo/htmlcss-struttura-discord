@@ -74,7 +74,27 @@ img {
     background-color: #daa520;
 }
 
+/* Hero Banner */
+.hero-banner {
+    /* debug */
+    background-color: #00008b;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    /* debug */
+    background-color: #ee82ee;
+    border: 1px dashed black;
+    width: 60%;
+    height: 180px;
+}
+
 /* Utilities */
 .pd-5 {
     padding: 5px;
+}
+
+.pd-20 {
+    padding: 20px;
 }
